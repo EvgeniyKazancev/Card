@@ -109,7 +109,7 @@ public class QuizCardBuilder {
        try {
             BufferedWriter writer = new BufferedWriter(new FileWriter(file));
             for (QuizCard card : cardList) {
-            writer.write(card.);// ÄÎÏÈÑÀÒÜ
+            writer.write(card.getQ);// ÄÎÏÈÑÀÒÜ
              writer.write(card.);
             }
        writer.close();
